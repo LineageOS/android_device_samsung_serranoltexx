@@ -15,4 +15,8 @@
     "repository": "android_kernel_samsung_msm8930-common",
     "target_path": "kernel/samsung/msm8930-common"
   }
+  {
+    "repository": "android_hardware_samsung",
+    "target_path": "hardware/samsung"
+  }
 ]
