@@ -20,6 +20,9 @@ $(call inherit-product-if-exists, vendor/samsung/serranoltexx/serranoltexx-vendo
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 $(call inherit-product, device/samsung/serrano-common/nfc.mk)
 
+# Device overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml
