@@ -1,7 +1,6 @@
 # system.prop for serranoltexx
 #
 
-#rild.libpath=/system/lib/libsec-ril.so
 rild.libpath=/system/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 
