@@ -23,9 +23,6 @@
 # Inherit from common serrano
 -include device/samsung/serrano-common/BoardConfigCommon.mk
 
-# Inherit from the proprietary version
--include vendor/samsung/serranoltexx/BoardConfigVendor.mk
-
 # Assert
 TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltexx,i9195,GT-I9195
 
