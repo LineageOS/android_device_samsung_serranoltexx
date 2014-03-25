@@ -2,6 +2,6 @@
 
 set -e
 
-export DEVICE=serranoltexx
+export DEVICE=serrano-common
 export VENDOR=samsung
-./../serrano-common/extract-files.sh $@
+./../$DEVICE/extract-files.sh $@
