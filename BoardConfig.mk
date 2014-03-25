@@ -24,7 +24,7 @@
 -include device/samsung/serrano-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltexx,i9195,GT-I9195
+TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltexx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_lte_defconfig
@@ -34,3 +34,8 @@ BOARD_HAVE_NFC := true
 
 # BLN
 BOARD_HAVE_GENERIC_BLN := true
+
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_serranolte
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/serrano-common/init/init_serranolte.c

@@ -22,4 +22,3 @@ PRODUCT_NAME := full_serranoltexx
 PRODUCT_DEVICE := serranoltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := GT-I9195
