@@ -6,6 +6,9 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
+# Set product specific version
+PRODUCT_VERSION_DEVICE_SPECIFIC := .1
+
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
@@ -13,4 +16,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=serranoltexx TARGET_DEVICE=serranol
 
 PRODUCT_DEVICE := serranoltexx
 PRODUCT_NAME := cm_serranoltexx
-PRODUCT_VERSION_DEVICE_SPECIFIC := .1
