@@ -7,7 +7,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Set product specific version
-PRODUCT_VERSION_DEVICE_SPECIFIC := .2
+PRODUCT_VERSION_DEVICE_SPECIFIC := .3
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
