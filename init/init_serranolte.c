@@ -50,14 +50,14 @@ void vendor_load_properties()
 
     if (strstr(bootloader, "I257M")) {
         /* serranoltebmc */
-        property_set("ro.build.fingerprint", "samsung/serranoltebmc/serranoltebmc:4.2.2/JDQ39/I257MVLUAMK5:user/release-keys");
-        property_set("ro.build.description", "serranoltebmc-user 4.2.2 JDQ39 I257MVLUAMK5 release-keys");
+        property_set("ro.build.fingerprint", "samsung/serranoltebmc/serranoltebmc:4.4.2/KOT49H/I257MVLUBNE6:user/release-keys");
+        property_set("ro.build.description", "serranoltebmc-user 4.4.2 KOT49H I257MVLUBNE6 release-keys");
         property_set("ro.product.model", "SGH-I257M");
         property_set("ro.product.device", "serranoltebmc");
     } else if (strstr(bootloader, "I9195")) {
         /* serranoltexx */
-        property_set("ro.build.fingerprint", "samsung/serranoltexx/serranolte:4.2.2/JDQ39/I9195XXUAMG4:user/release-keys");
-        property_set("ro.build.description", "serranoltexx-user 4.2.2 JDQ39 I9195XXUAMG4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/serranoltexx/serranolte:4.4.2/KOT49H/I9195XXUCNE6:user/release-keys");
+        property_set("ro.build.description", "serranoltexx-user 4.4.2 KOT49H I9195XXUCNE6 release-keys");
         property_set("ro.product.model", "GT-I9195");
         property_set("ro.product.device", "serranoltexx");
     } else if (strstr(bootloader, "E370K")) {
