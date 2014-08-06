@@ -20,10 +20,6 @@
     "target_path": "kernel/samsung/msm8930-common"
   },
   {
-    "repository": "android_hardware_samsung",
-    "target_path": "hardware/samsung"
-  },
-  {
     "repository": "android_hardware_qcom_fm",
     "target_path": "hardware/qcom/fm"
   }
