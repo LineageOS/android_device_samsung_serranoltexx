@@ -31,10 +31,6 @@ on init
 
     wait /dev/block/platform/msm_sdcc.1/by-name/persdata
     mount ext4 /dev/block/platform/msm_sdcc.1/by-name/persdata /persdata/absolute nosuid nodev barrier=1
-    chown system system /persdata
-    chmod 0755 /persdata
-    chown system system /persdata/absolute
-    chmod 0750 /persdata/absolute
 
 on boot
     chown system system /sys/class/leds/button-backlight/brightness
