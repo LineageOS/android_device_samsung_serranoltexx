@@ -62,8 +62,8 @@ void vendor_load_properties()
         property_set("ro.product.device", "serranoltexx");
     } else if (strstr(bootloader, "E370K")) {
         /* serranoltektt */
-        property_set("ro.build.fingerprint", "samsung/serranoltektt/serranoltektt:4.2.2/JDQ39/E370KKKUANB1:user/release-keys");
-        property_set("ro.build.description", "serranoltektt-user 4.2.2 JDQ39 E370KKKUANB1 release-keys");
+        property_set("ro.build.fingerprint", "samsung/serranoltektt/serranoltektt:4.4.4/KTU84P/E370KKTU2BNK5:user/release-keys");
+        property_set("ro.build.description", "serranoltektt-user 4.4.4 KTU84P E370KKTU2BNK5 release-keys");
         property_set("ro.product.model", "SHV-E370K");
         property_set("ro.product.device", "serranoltektt");
     }
