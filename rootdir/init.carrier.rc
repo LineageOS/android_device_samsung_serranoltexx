@@ -52,3 +52,9 @@ on boot
     # efs
     mkdir /efs/drm 0700 system system
     mkdir /efs/imei 0775 radio radio
+
+    # Backlight notification
+    chown system system /sys/class/misc/backlightnotification/enabled
+    chown system system /sys/class/misc/backlightnotification/blink_control
+    chown system system /sys/class/misc/backlightnotification/notification_led
+    restorecon_recursive /sys/class/misc/backlightnotification
