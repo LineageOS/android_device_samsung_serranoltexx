@@ -57,4 +57,4 @@ on boot
     chown system system /sys/class/misc/backlightnotification/enabled
     chown system system /sys/class/misc/backlightnotification/blink_control
     chown system system /sys/class/misc/backlightnotification/notification_led
-    restorecon_recursive /sys/class/misc/backlightnotification
+    restorecon /sys/class/misc/backlightnotification/enabled
