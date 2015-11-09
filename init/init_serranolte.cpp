@@ -34,7 +34,9 @@
 #include "log.h"
 #include "util.h"
 
-void vendor_load_properties()
+#include "init_msm.h"
+
+void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *board_type)
 {
     char platform[PROP_VALUE_MAX];
     char bootloader[PROP_VALUE_MAX];
@@ -42,8 +44,12 @@ void vendor_load_properties()
     char devicename[PROP_VALUE_MAX];
     int rc;
 
+    UNUSED(msm_id);
+    UNUSED(msm_ver);
+    UNUSED(board_type);
+
     rc = property_get("ro.board.platform", platform);
-    if (!rc || strncmp(platform, ANDROID_TARGET, PROP_VALUE_MAX))
+    if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 
     property_get("ro.bootloader", bootloader);
@@ -69,5 +75,6 @@ void vendor_load_properties()
     }
 
     property_get("ro.product.device", device);
-    ERROR("Found bootloader id %s setting build properties for %s device\n", bootloader, device);
+    strlcpy(devicename, device, sizeof(devicename));
+    INFO("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
 }
