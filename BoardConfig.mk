@@ -35,6 +35,9 @@ BOARD_HAVE_NFC := true
 # BLN
 BOARD_HAVE_GENERIC_BLN := true
 
+# Charger
+BOARD_NO_CHARGER_LED := true
+
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_serranolte
