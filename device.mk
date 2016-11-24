@@ -17,6 +17,9 @@
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
 $(call inherit-product, device/samsung/serrano-common/nfc.mk)
 
+# Also get non-open-source specific aspects
+$(call inherit-product, vendor/samsung/serranoltexx/serranoltexx-vendor.mk)
+
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
 

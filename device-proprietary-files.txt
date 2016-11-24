@@ -1,0 +1,10 @@
+# Add device specific blobs here
+
+# Radio
+bin/rild
+lib/libril.so
+lib/libsec-ril.so
+
+# NFC firmware
+vendor/firmware/bcm2079xB4_firmware.ncd
+vendor/firmware/bcm2079xB4_pre_firmware.ncd
