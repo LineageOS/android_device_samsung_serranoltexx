@@ -1,4 +1,4 @@
-# Inherit some common CM stuff.
+# Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Enhanced NFC
@@ -8,4 +8,4 @@ $(call inherit-product, device/samsung/serranoltexx/full_serranoltexx.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=serranoltexx TARGET_DEVICE=serranolte
 
-PRODUCT_NAME := cm_serranoltexx
+PRODUCT_NAME := lineage_serranoltexx
