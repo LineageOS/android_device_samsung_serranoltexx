@@ -36,6 +36,9 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8930_serrano_eur_lte_defconfig
 # NFC
 BOARD_HAVE_NFC := true
 
+# Lights
+TARGET_PROVIDES_LIBLIGHT := true
+
 # BLN
 BOARD_HAVE_GENERIC_BLN := true
 
