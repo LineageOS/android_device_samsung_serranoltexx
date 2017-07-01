@@ -46,6 +46,5 @@ BOARD_HAVE_GENERIC_BLN := true
 BOARD_NO_CHARGER_LED := true
 
 # Vendor Init
-TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_serranolte
 TARGET_RECOVERY_DEVICE_MODULES := libinit_serranolte
