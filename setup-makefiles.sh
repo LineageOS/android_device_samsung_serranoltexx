@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export DEVICE_COMMON=serrano-common
+export DEVICE=serranoltexx
+export VENDOR=samsung
+
 OUTDIR=vendor/$VENDOR/$DEVICE
 MAKEFILE=../../../$OUTDIR/$DEVICE-vendor-blobs.mk
 
