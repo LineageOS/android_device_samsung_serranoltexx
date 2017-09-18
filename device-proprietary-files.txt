@@ -1,8 +1,6 @@
 # Add device specific blobs here
 
 # Radio
-bin/rild
-lib/libril.so
 lib/libsec-ril.so
 
 # NFC firmware
