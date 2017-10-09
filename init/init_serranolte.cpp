@@ -85,5 +85,5 @@ void vendor_load_properties()
 
     property_get("ro.product.device", device, NULL);
     strlcpy(devicename, device, sizeof(devicename));
-    ERROR("Found bootloader id %s setting build properties for %s device\n", bootloader, devicename);
+    LOG(INFO) << "Found bootloader id " << bootloader << " setting build properties for " << devicename << " device\n";
 }
