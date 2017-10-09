@@ -16,7 +16,7 @@
 
 # Inherit from serrano-common
 $(call inherit-product, device/samsung/serrano-common/serrano-common.mk)
-$(call inherit-product, device/samsung/serrano-common/nfc.mk)
+#$(call inherit-product, device/samsung/serrano-common/nfc.mk)
 
 # Also get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/serranoltexx/serranoltexx-vendor.mk)
