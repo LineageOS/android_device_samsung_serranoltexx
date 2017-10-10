@@ -1,8 +1,7 @@
 # system.prop for serranoltexx
 #
 
-rild.libpath=/system/lib/libsec-ril.so
-rild.libargs=-d /dev/smd0
+rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
 
 telephony.lteOnGsmDevice=1
 ro.telephony.default_network=3
