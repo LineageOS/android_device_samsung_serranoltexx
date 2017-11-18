@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
+        <!-- Rat families: {GPRS, EDGE}, {EVDO, EVDO_A, EVDO_B},
+             {UMTS, HSPA, HSDPA, HSUPA, HSPAP}, {LTE, LTE_CA}
+             Removed HSUPA (10), HSPAP (15), and LTE_CA (19) -->
+        <string-array name="ratchet_rat_families" num="4">
+            <item value="1,2" />
+            <item value="7,8,12" />
+            <item value="3,11,9" />
+            <item value="14" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
