@@ -30,5 +30,6 @@ PRODUCT_COPY_FILES += \
 
 # FM radio
 PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0-impl \
     FM2 \
     qcom.fmradio
