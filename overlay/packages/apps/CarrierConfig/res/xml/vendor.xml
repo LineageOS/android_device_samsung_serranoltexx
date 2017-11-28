@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
     <carrier_config>
-        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
         <!-- Rat families: {GPRS, EDGE}, {EVDO, EVDO_A, EVDO_B},
              {UMTS, HSPA, HSDPA, HSUPA, HSPAP}, {LTE, LTE_CA}
              Removed HSUPA (10), HSPAP (15), and LTE_CA (19) -->
