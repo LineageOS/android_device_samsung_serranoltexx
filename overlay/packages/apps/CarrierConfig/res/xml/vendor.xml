@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
     <carrier_config>
+        <int name="maxImageHeight" value="1944" />
+        <int name="maxImageWidth" value="2592" />
+        <int name="maxMessageSize" value="2097152" />
         <!-- Rat families: {GPRS, EDGE}, {EVDO, EVDO_A, EVDO_B},
              {UMTS, HSPA, HSDPA, HSUPA, HSPAP}, {LTE, LTE_CA}
              Removed HSUPA (10), HSPAP (15), and LTE_CA (19) -->
