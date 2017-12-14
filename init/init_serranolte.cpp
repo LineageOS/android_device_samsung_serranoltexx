@@ -30,10 +30,9 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+#include <android-base/logging.h>
 #include <cutils/properties.h>
 #include "vendor_init.h"
-#include "log.h"
-#include "util.h"
 
 #define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
 #include <sys/_system_properties.h>
@@ -85,5 +84,5 @@ void vendor_load_properties()
 
     property_get("ro.product.device", device, NULL);
     strlcpy(devicename, device, sizeof(devicename));
-    LOG(INFO) << "Found bootloader id " << bootloader << " setting build properties for " << devicename << " device\n";
+    LOG(ERROR) << "Found bootloader id " << bootloader << " setting build properties for " << devicename << " device\n";
 }
