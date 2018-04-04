@@ -15,3 +15,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_serranoltexx.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_serranoltexx-userdebug
