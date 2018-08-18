@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Time format,default vlaue is 24 : 24 format,other value is 12 format -->
-    <string name="def_time_format" translatable="false">24</string>
-</resources>
