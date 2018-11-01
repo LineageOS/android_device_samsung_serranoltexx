@@ -1,6 +1,6 @@
 # system.prop for serranoltexx
 #
 
-rild.libpath=/system/vendor/lib/libril-qc-qmi-1.so
+rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 
 ro.telephony.default_network=3
