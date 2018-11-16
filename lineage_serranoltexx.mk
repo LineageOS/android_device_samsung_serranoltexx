@@ -26,3 +26,9 @@ PRODUCT_NAME := lineage_serranoltexx
 PRODUCT_DEVICE := serranoltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    TARGET_DEVICE=serranoltexx \
+    PRIVATE_BUILD_DESC="serranoltexx-user 4.4.2 KOT49H I9195XXUCNE6 release-keys"
+
+BUILD_FINGERPRINT := "samsung/serranoltexx/serranolte:4.4.2/KOT49H/I9195XXUCNE6:user/release-keys"
