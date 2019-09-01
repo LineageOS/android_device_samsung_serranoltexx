@@ -4,6 +4,8 @@
 vendor/lib/libril-qc-qmi-1.so
 
 # Audio
+vendor/lib/libacdbloader.so
+vendor/lib/libadsprpc.so
 vendor/lib/libaudcal.so
 
 # GPS
