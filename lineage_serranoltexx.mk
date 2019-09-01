@@ -31,6 +31,6 @@ PRODUCT_MODEL := GT-I9195
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=serranoltexx \
     TARGET_DEVICE=serranolte \
-    PRIVATE_BUILD_DESC="serranoltexx-user 4.4.2 KOT49H I9195XXUCNE6 release-keys"
+    PRIVATE_BUILD_DESC="serranoltexx-user 4.4.2 KOT49H I9195XXUCQL2 release-keys"
 
-BUILD_FINGERPRINT := "samsung/serranoltexx/serranolte:4.4.2/KOT49H/I9195XXUCNE6:user/release-keys"
+BUILD_FINGERPRINT := "samsung/serranoltexx/serranolte:4.4.2/KOT49H/I9195XXUCQL2:user/release-keys"
