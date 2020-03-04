@@ -13,11 +13,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+COMMON_PATH        := device/samsung/serrano-common
+COMMON_VENDOR_PATH := vendor/samsung/serrano-common
+DEVICE_PATH        := device/samsung/serranoltexx
+DEVICE_VENDOR_PATH := vendor/samsung/serranoltexx
+PLATFORM_PATH      := device/samsung/msm8930-common
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from serranoltexx device
-$(call inherit-product, device/samsung/serranoltexx/device.mk)
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)

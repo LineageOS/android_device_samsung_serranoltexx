@@ -22,13 +22,13 @@
 #
 
 # Inherit from common serrano
--include device/samsung/serrano-common/BoardConfigCommon.mk
+-include $(COMMON_PATH)/BoardConfigCommon.mk
 
 # Inherit from proprietary vendor
--include vendor/samsung/serranoltexx/BoardConfigVendor.mk
+-include $(DEVICE_VENDOR_PATH)/BoardConfigVendor.mk
 
 # Manifest
-DEVICE_MANIFEST_FILE += device/samsung/serranoltexx/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltektt,serranoltexx
