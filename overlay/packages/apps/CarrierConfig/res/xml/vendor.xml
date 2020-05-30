@@ -1,6 +1,16 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <carrier_config_list>
     <carrier_config>
+        <string name="gps.supl_host">supl.google.com</string>
+        <string name="gps.supl_port">7275</string>
+        <string name="gps.supl_ver">0x10000</string>
+        <string name="gps.supl_mode">1</string>
+        <string name="gps.supl_es">0</string>
+        <string name="gps.lpp_profile">0</string>
+        <string name="gps.use_emergency_pdn_for_emergency_supl">1</string>
+        <string name="gps.a_glonass_pos_protocol_select">0</string>
+        <string name="gps.gps_lock">0</string>
+
         <int name="maxImageHeight" value="1944" />
         <int name="maxImageWidth" value="2592" />
         <int name="maxMessageSize" value="2097152" />
