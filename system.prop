@@ -4,3 +4,4 @@
 # RIL
 rild.libpath=/vendor/lib/libsec-ril.so
 ro.telephony.default_network=3
+ro.telephony.ril.config=legacypollstate
